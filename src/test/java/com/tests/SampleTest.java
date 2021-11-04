@@ -16,8 +16,7 @@ public class SampleTest extends BaseTest {
 		DriverFactory.getInstance().getDriver().get("http://www.google.com");
 		String title=DriverFactory.getInstance().getDriver().getTitle();
 		System.out.println("title:"+title);
-
-		
+		//test comment
 		
 	}
 
