@@ -1,0 +1,1 @@
+docker-compose -f docker-compose-v3.yml --scale chrome=5
