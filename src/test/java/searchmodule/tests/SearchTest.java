@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class SearchTest extends BaseTest {
 
-    @Test
+    @Test(enabled=false)
     @Parameters({"keyword"})
     public void search(String keyword){
         SearchPage searchPage = new SearchPage(DriverFactory.getInstance().getDriver());
